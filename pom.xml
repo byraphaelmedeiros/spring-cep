@@ -12,7 +12,7 @@
 
     <groupId>com.byraphaelmedeiros.spring.cep</groupId>
     <artifactId>spring-cep</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1.0-SNAPSHOT</version>
 
     <name>spring-cep</name>
     <description>Brazilian CEP (Postal Code) Spring Boot Component</description>
@@ -119,7 +119,7 @@
                         </goals>
 
                         <configuration>
-                            <additionalparam>-Xdoclint:none</additionalparam>
+                            <doclint>none</doclint>
                         </configuration>
                     </execution>
                 </executions>

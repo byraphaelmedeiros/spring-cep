@@ -10,7 +10,7 @@
     {
       "name": "com.byraphaelmedeiros.spring.cep.url",
       "type": "java.lang.String[]",
-      "description": "URL de consulta REST publica por CEP (Formato: http://api.postmon.com.br/v1/cep/%s, onde, %s será subistituído por um valor).",
+      "description": "Lista (separada por virgula) de URLs para consulta REST publica por CEP (Formato: http://api.postmon.com.br/v1/cep/%s, onde, %s será subistituído por um valor).",
       "sourceType": "com.byraphaelmedeiros.spring.cep.configuration.SpringCepProperties",
       "defaultValue":  false
     }
