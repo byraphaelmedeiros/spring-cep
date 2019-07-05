@@ -1,5 +1,6 @@
 package com.byraphaelmedeiros.spring.cep.service;
 
+import com.byraphaelmedeiros.spring.cep.configuration.SpringCepConfiguration;
 import com.byraphaelmedeiros.spring.cep.model.Endereco;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.Assert;
@@ -19,7 +20,7 @@ import org.springframework.test.context.junit4.SpringRunner;
  */
 @RunWith(SpringRunner.class)
 @RestClientTest(EnderecoService.class)
-@SpringBootTest(classes = {EnderecoService.class}, properties = {"com.byraphaelmedeiros.spring.cep.url=http://api.postmon.com.br/v1/cep/%s, http://viacep.com.br/ws/%s/json/unicode/"})
+@SpringBootTest(classes = {EnderecoService.class, SpringCepConfiguration.class})
 public class EnderecoServiceTest {
 
     @Autowired
