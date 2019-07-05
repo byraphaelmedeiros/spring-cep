@@ -12,7 +12,7 @@
 
     <groupId>com.byraphaelmedeiros.spring.cep</groupId>
     <artifactId>spring-cep</artifactId>
-    <version>1.1</version>
+    <version>1.2-SNAPSHOT</version>
 
     <name>spring-cep</name>
     <description>Brazilian CEP (Postal Code) Spring Boot Component</description>
